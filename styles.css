@@ -1,0 +1,28 @@
+
+nav {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  border: 2px solid black;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+}
+li:hover {
+  background: #444;
+}
+li:hover a {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+div {
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+}
